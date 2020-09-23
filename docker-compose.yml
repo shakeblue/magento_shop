@@ -1,0 +1,16 @@
+version: '3'
+services:
+  web_server:
+    image: nginx
+    container_name: nginx
+    ports:
+      - "80:80"
+
+  php-cli:
+    image: php:7.3-cli
+    container_name: php7.3-cli
+
+  php-fpm:
+    image: php:7.3-fpm
+    container_name: php7.3-fpm
+
