@@ -1,6 +1,6 @@
 version: '3'
 services:
-  web_server:
+  web-sever:
     image: nginx
     container_name: nginx
     ports:
